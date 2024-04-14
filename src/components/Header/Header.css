@@ -1,0 +1,62 @@
+.header {
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    background-color: rgb(99, 193, 255);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header-right {
+    display: flex;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+}
+
+.auth>button {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+
+    background-color: white;
+    border: 1px solid rgb(99, 193, 255);
+    color: rgb(99, 193, 255);
+    height: 2rem;
+}
+
+.name_header {
+    margin: 0 1rem;
+
+}
+
+.auth a {
+    color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+.auth a:hover {
+    border-bottom: 2px solid;
+}
+.bottomCurrent {
+    border-bottom: 2px solid;
+}

@@ -1,0 +1,87 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.manager>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100wh;
+}
+
+.content {
+    padding: 10vh 2rem 0 4rem;
+    flex: 1 !important;
+    /* padding: 1rem; */
+}
+
+.title-layout {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: rgb(82, 82, 82);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.content-web {
+    padding: 1rem 5rem;
+}
+
+.MovieSchedule header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.blocked_TableAdminAccounts>div {
+    /* width: 250px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocked_TableAdminAccounts button {
+    width: 80px;
+}
+
+.content-web {
+    padding: 0 2rem;
+    padding-top: 10vh
+}
+
+.MovieListWeb {
+    padding: 5rem;
+    padding-top: 11vh;
+}
+
+.h3custom {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.not-data {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    /* font-style: italic; */
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+.not-data img {
+    width: 100px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,5 @@
+.siderbar {
+    position: fixed;
+    z-index: 100;
+    width: 17vw;
+}

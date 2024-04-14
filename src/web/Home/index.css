@@ -1,0 +1,52 @@
+.Home {
+    padding: 5rem;
+    padding-top: 14vh;
+}
+
+.search-home form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(122, 182, 243);
+    color: #71d3f7;
+}
+
+.search-home form label {
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.search-home input {
+    width: 70%;
+    height: 3rem;
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    border-left: 1px solid rgb(122, 182, 243);
+    padding-left: 0.5rem;
+    color: #71d3f7;
+}
+
+.search-home form input::placeholder {
+    color: #71d3f7;
+}
+
+.search-home form button {
+    width: 10%;
+    height: 3rem;
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    color: #71d3f7;
+}
+
+.img-home {
+    margin-top: 1rem;
+    width: 100%;
+    height: 70vh;
+}

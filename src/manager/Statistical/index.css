@@ -1,0 +1,34 @@
+.MovieSchedule_option {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MovieSchedule_option>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MovieSchedule_option>div>div {
+    margin-right: 2rem;
+}
+
+.Statistical_sum {
+    margin: 1.5rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Statistical_sum span:nth-child(1) {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.Statistical_sum span:nth-child(2) {
+    margin-left: 0.3rem;
+    padding: 5px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    line-height: 1;
+}

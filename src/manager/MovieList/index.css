@@ -1,0 +1,35 @@
+.ListComment {
+    border-bottom: 1px solid rgb(229, 228, 228);
+    margin-top: 1rem;
+}
+.ListComment_infor {
+    display: flex;
+    align-items: center;
+}
+
+.ListComment_infor_text {
+    margin-left: 1rem;
+}
+
+.ListComment_infor_text p:nth-child(1) {
+    font-weight: bold;
+}
+
+.ListComment_infor_text p:nth-child(2) {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.des_ListComment {
+    padding: 0.5rem;
+}
+
+.star_ListComment {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.review_people {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

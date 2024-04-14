@@ -1,0 +1,34 @@
+.PaymentSuccess {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.infor_PaymentSuccess {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.infor_PaymentSuccess header{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.infor_PaymentSuccess img {
+    width: 150px;
+}
+
+.infor_PaymentSuccess div{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+}
+
+.btn_PaymentSuccess * {
+    margin: 0 2rem;
+}

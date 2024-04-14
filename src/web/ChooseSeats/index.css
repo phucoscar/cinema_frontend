@@ -1,0 +1,150 @@
+.title-ChooseSeats {
+    display: flex;
+    padding-top: 12vh;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content-ChooseSeats {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.BookTickets-ChooseSeats {
+    width: 50%;
+}
+
+.text_screen-BookTickets {
+    text-align: center;
+}
+
+.screen-BookTickets {
+    display: block;
+    width: 50%;
+    height: 5px;
+    background-color: rgb(128, 128, 128);
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.infor_BookTickets-ChooseSeats {
+    width: 30%;
+    margin: 3rem auto;
+}
+
+.infor_BookTickets-ChooseSeats>div {
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+}
+
+.infor_BookTickets-ChooseSeats>div >p{
+   margin: 0.5rem 0;
+   font-size: 1.1rem;
+}
+
+.note-BookTickets {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.note-BookTickets>p {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    margin: 0;
+}
+
+.note-BookTickets span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.note-BookTickets>p:nth-child(1) {
+    color: rgb(99, 193, 255);
+}
+
+.note-BookTickets>p:nth-child(2) {
+    color: rgb(118, 248, 118);
+}
+
+.note-BookTickets>p:nth-child(3) {
+    color: rgb(133, 133, 133);
+}
+
+.note-BookTickets>p:nth-child(4) {
+    color: rgb(255, 84, 65);
+}
+
+.note-BookTickets>p:nth-child(1) span {
+    background-color: rgb(99, 193, 255);
+}
+
+.note-BookTickets>p:nth-child(2) span {
+    background-color: rgb(118, 248, 118);
+}
+
+.note-BookTickets>p:nth-child(3) span {
+    background-color: rgb(133, 133, 133);
+}
+
+.note-BookTickets>p:nth-child(4) span{
+    background-color: rgb(255, 84, 65);
+}
+
+.note-BookTickets>p:nth-child(1) p {
+    display: block;
+}
+
+.ConfirmBook{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ConfirmBook >div {
+    padding: 1rem;
+    border-radius: 10px;
+    /* margin: 1rem 0; */
+    border: 1px solid rgb(221, 221, 221);
+    width: 40%;
+}
+
+.payment-methods{
+    margin: 1rem 0;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.icon-VNP{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(206, 243, 249);
+    padding: 5px 10px;
+}
+
+.icon-VNP img{
+    height: 25px;
+    width: 25px;
+    margin-right: 1rem;
+}
+
+.icon-VNP p{
+    font-size: 0.7rem;
+}
+
+.price-payment-methods {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}

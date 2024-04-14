@@ -1,0 +1,241 @@
+.Form {
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form>div {
+    width: 80%;
+    height: 85%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(61, 61, 242, 0.3);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form {
+    min-width: 50%;
+    height: 100%;
+    padding-right: 2rem;
+    /* background-color: rgb(200, 241, 241); */
+}
+
+.login-form h1 {
+    cursor: pointer;
+    color: #71d3f7;
+}
+
+.login-form form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18%;
+}
+
+.login-form label {
+    cursor: pointer;
+}
+
+.login-form form>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0.5rem auto;
+}
+
+.login-form input {
+    width: 65%;
+    border-radius: 5px;
+    padding: 15px 20px;
+    outline: none;
+    /* margin-bottom: 20px; */
+    border: 1px solid #71d3f7;
+}
+
+.login-form button {
+    width: 200px;
+    padding: 15px 20px;
+    background-color: #71d3f7;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form span {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    margin: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-form>p {
+    margin-top: 1rem;
+    text-align: center;
+    border-top: 1px solid #71d3f7;
+    padding-top: 1rem;
+}
+
+.register-form {
+    min-width: 50%;
+    height: 100%;
+    /* padding-right: 2rem; */
+    /* background-color: rgb(200, 241, 241); */
+}
+
+.register-form h1 {
+    cursor: pointer;
+    color: #71d3f7;
+}
+
+.register-form form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.register-form label {
+    cursor: pointer;
+}
+
+.register-form form>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0.3rem auto;
+}
+
+.register-form input {
+    width: 65%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #71d3f7;
+}
+
+.register-form button {
+    width: 200px;
+    padding: 15px 20px;
+    background-color: #71d3f7;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.register-form span {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    margin: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.register-form>p {
+    margin-top: 1rem;
+    text-align: center;
+    border-top: 1px solid #71d3f7;
+    padding-top: 1rem;
+}
+
+
+.forgot-password {
+    min-width: 50%;
+    height: 100%;
+    padding-right: 2rem;
+    /* background-color: rgb(200, 241, 241); */
+}
+
+.forgot-password .instruct{
+    margin: 4rem 0;
+}
+
+.forgot-password .instruct h3{
+    margin: 0.5rem 0;
+}
+
+.forgot-password .instruct p{
+    font-size: 0.9rem;
+    padding: 0 1rem;
+}
+
+.forgot-password .instruct .instruct-main{
+    padding: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.forgot-password h1 {
+    cursor: pointer;
+    color: #71d3f7;
+}
+
+.forgot-password form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 18%; */
+}
+
+.forgot-password label {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.forgot-password form>div {
+    width: 70%;
+    margin: 0.5rem auto;
+}
+
+.forgot-password input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px 20px;
+    outline: none;
+    /* margin-bottom: 20px; */
+    border: 1px solid #71d3f7;
+}
+
+.forgot-password button {
+    width: 200px;
+    padding: 15px 20px;
+    background-color: #71d3f7;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.forgot-password span {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    margin: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.forgot-password>p {
+    margin-top: 1rem;
+    text-align: center;
+    border-top: 1px solid #71d3f7;
+    padding-top: 1rem;
+}

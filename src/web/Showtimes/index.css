@@ -1,0 +1,186 @@
+.Showtimes {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    padding-top: 10vh;
+    /* border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(61, 61, 242, 0.3);
+    box-sizing: border-box; */
+}
+
+.side_bar-Showtimes {
+    margin: 0.5rem 0;
+    padding-right: 1rem;
+    width: 20%;
+    height: calc(100% - 1rem);
+    overflow-y: auto;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+
+.content-Showtimes {
+    flex: 1;
+    padding: 1rem 1rem 0 1rem;
+    overflow-y: auto;
+}
+
+.content-Showtimes::-webkit-scrollbar-track,
+.side_bar-Showtimes::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.content-Showtimes::-webkit-scrollbar-track,
+.side_bar-Showtimes::-webkit-scrollbar {
+    width: 3px;
+}
+
+.content-Showtimes::-webkit-scrollbar-track,
+.side_bar-Showtimes::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 5px;
+}
+
+.name_theater-SideBar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    padding: 0.2rem;
+    align-items: center;
+}
+
+.name_theater-SideBar>div {
+    width: 80%;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.2rem 0;
+}
+
+.check_name_theater-SideBar>div {
+    background-color: rgb(204, 236, 255);
+}
+
+.name_theater-SideBar img{
+    width: 20px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+.Content-Showtimes header {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0.8rem;
+    border-bottom: 0.5px solid #9ddef6;
+}
+
+.address_Content-Showtimes {
+    color: rgb(65, 65, 65);
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-date_Content-Showtimes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reverse-date_Content-Showtimes,
+.date_Content-Showtimes {
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 10px;
+    width: 9%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.reverse-date_Content-Showtimes p,
+.date_Content-Showtimes p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 50%; */
+    /* padding: 0.3rem 0; */
+    padding: 0.5rem 0;
+}
+
+.date_Content-Showtimes p:nth-child(1) {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.date_Content-Showtimes p:nth-child(2) {
+    background-color: rgb(99, 193, 255);
+    color: white;
+}
+
+.reverse-date_Content-Showtimes p:nth-child(1) {
+    font-size: 1.5rem;
+    background-color: rgb(99, 193, 255);
+    color: white;
+}
+
+.list_film-Content-Showtimes {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.img-list_film-Content-Showtimes {
+    width: 25%;
+    margin-right: 2rem;
+}
+
+.list_film-Content-Showtimes .name-film {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.list_film-Content-Showtimes .type-film {
+    color: rgb(107, 107, 107);
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+}
+
+.time-schedule_Content-Showtimes {
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 10px;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.time-schedule_Content-Showtimes:hover {
+    border: 1px solid rgb(99, 193, 255);
+}
+
+.list_film-Content-Showtimes>div:nth-child(2) {
+    /* position: relative; */
+    flex: 1;
+}
+
+/* .list_film-Content-Showtimes > div:nth-child(2)>div {
+    position: absolute;
+    bottom: 0;
+} */
+
+.list_time-schedule_Content-Showtimes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.notfount-Content-Showtimes{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}

@@ -1,0 +1,40 @@
+.BookingHistory {
+    padding: 5rem;
+    padding-top: 10vh;
+}
+
+.BookingHistory header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.movie-quality{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.movie-quality span{ 
+    margin: 0.2rem 0;
+}
+.right_Detail {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.right_Detail *{
+    margin-bottom: 1rem;
+}
+.success-booking-history {
+    display: flex;
+    align-items: center;
+    color: green;
+}
+.success-booking-history img {
+    height: 20px;
+    width: 20px;
+}

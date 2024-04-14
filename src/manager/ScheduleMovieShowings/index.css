@@ -1,0 +1,7 @@
+.ScheduleMovieShowings header{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
